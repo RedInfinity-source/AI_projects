@@ -1,5 +1,3 @@
-# Article Summarization and Question Answering Bot
-
 This Python script reads an article from the web and answers questions based on the content of the article. It uses natural language processing techniques and cosine similarity to find the most relevant answers.
 
 ## Dependencies
@@ -60,5 +58,3 @@ Note
     The bot's effectiveness depends on the content and quality of the articles it reads. Make sure to provide articles with meaningful information for better results.
 
 Feel free to customize and expand the functionality of this bot according to your needs.
-
-You can add this README file to your GitHub repository to provide clear instructions and explanations for users who want to use your bot.
