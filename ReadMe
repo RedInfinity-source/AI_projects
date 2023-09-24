@@ -8,7 +8,6 @@ This Python script reads an article from the web and answers questions based on 
 
 Make sure to install these dependencies before running the script. You can use `pip` to install them:
 
-```bash
 pip install newspaper3k nltk scikit-learn
 
 Usage
