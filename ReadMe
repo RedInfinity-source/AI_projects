@@ -1,0 +1,64 @@
+# Article Summarization and Question Answering Bot
+
+This Python script reads an article from the web and answers questions based on the content of the article. It uses natural language processing techniques and cosine similarity to find the most relevant answers.
+
+## Dependencies
+
+- [Newspaper3k](https://github.com/codelucas/newspaper): A Python library for web scraping and article parsing.
+- [NLTK](https://www.nltk.org/): The Natural Language Toolkit for tokenization and text processing.
+- [Scikit-learn](https://scikit-learn.org/stable/): A machine learning library for cosine similarity calculations.
+
+Make sure to install these dependencies before running the script. You can use `pip` to install them:
+
+```bash
+pip install newspaper3k nltk scikit-learn
+
+Usage
+
+    Run the script by executing the Python file:
+python article_bot.py
+    The bot will start and await your input.
+
+    You can interact with the bot using various commands:
+        Type next to choose a different article to read. The bot will prompt you to enter the article number (1, 2, or 3).
+        Ask questions or engage in a conversation with the bot. It will try to provide relevant responses based on the article's content.
+
+    To exit the conversation, type any of the following commands:
+        exit
+        quit
+        thats all
+        break
+
+How It Works
+
+    The bot starts by downloading and parsing an article from a URL.
+    It tokenizes the article into sentences.
+    It listens to user input and looks for specific commands like "next" to switch to another article.
+    The bot calculates the cosine similarity between the user's input and the sentences in the article to find the most relevant responses.
+    It provides responses based on the similarity score, and if no relevant response is found, it replies with a default message.
+
+Example Conversation
+
+Here's an example of a conversation with the bot:
+> hello
+bot: hello, how can I help you?
+
+> Tell me about Python's features.
+bot: Python's features include...
+
+> next
+what number article would you like to look at? > 2
+
+> What's the latest NFL news?
+bot: The latest NFL news...
+
+> exit
+thank you, have a good day
+
+Note
+
+    The bot's effectiveness depends on the content and quality of the articles it reads. Make sure to provide articles with meaningful information for better results.
+
+Feel free to customize and expand the functionality of this bot according to your needs.
+
+You can add this README file to your GitHub repository to provide clear instructions and explanations for users who want to use your bot.
