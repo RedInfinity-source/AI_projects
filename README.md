@@ -7,7 +7,7 @@ The code is a chatbot that interacts with users based on article content. It imp
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 5/10](#Rating)
+- [Rating: 7/10](#Rating)
 
 # About
 
