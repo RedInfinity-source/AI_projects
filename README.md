@@ -2,6 +2,8 @@
 
 The code is a chatbot that interacts with users based on article content. It imports libraries, downloads tokenization packages, retrieves articles, and generates responses. However, issues include incorrect sorting, typos in variable names, incorrect indentation of sentence lists, and insufficient context understanding. The bot response generation may not be robust, and the code lacks clear explanations for each part.
 
+![alt text](http://url/to/img.png)
+
 ## Table of Contents
 
 - [About](#about)
