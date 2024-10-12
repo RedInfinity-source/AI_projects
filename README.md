@@ -2,7 +2,14 @@
 
 The code is a chatbot that interacts with users based on article content. It imports libraries, downloads tokenization packages, retrieves articles, and generates responses. However, issues include incorrect sorting, typos in variable names, incorrect indentation of sentence lists, and insufficient context understanding. The bot response generation may not be robust, and the code lacks clear explanations for each part.
 
-![alt text](https://github.com/Statute8234/AI_projects/blob/main/Screenshot%202024-03-20%20222214.png?raw=true)
+[![Static Badge](https://img.shields.io/badge/newspaper-yellow)](https://pypi.org/project/newspaper/)
+[![Static Badge](https://img.shields.io/badge/random-blue)](https://pypi.org/project/random/)
+[![Static Badge](https://img.shields.io/badge/string-orange)](https://pypi.org/project/string/)
+[![Static Badge](https://img.shields.io/badge/nltk-pink)](https://pypi.org/project/nltk/)
+[![Static Badge](https://img.shields.io/badge/sklearn-lime)](https://pypi.org/project/sklearn/)
+[![Static Badge](https://img.shields.io/badge/numpy-gray)](https://pypi.org/project/numpy/)
+[![Static Badge](https://img.shields.io/badge/warnings-maroon)](https://pypi.org/project/warnings/)
+
 
 ## Table of Contents
 
